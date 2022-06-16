@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(blue,pink);
+    background-repeat: no-repeat;
+}
+.header{
+   padding: 2%;
+   text-align: center;
+   color: lightgoldenrodyellow;
+   font-family: 'Poppins',sans-serif;
+   font-size: 20px;
+   text-shadow: 4px 0 0 #000000;
+   
+}
+.continer{
+    width: 40%;
+    top: 60%;
+    left: 50%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: fixed;
+    overflow-x: scroll;
+        min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+        border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #2333ad;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #2a2a45;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 22%;
+    height: 45px;
+    border-radius: 7px;
+    font-family: 'Poppins',sans-serif;
+}
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #185266;
+    cursor: pointer;
+    background-color: #7cb9c4;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
+.completed{
+    text-decoration: line-through;
+}
+
+ 

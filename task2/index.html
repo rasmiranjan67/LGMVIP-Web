@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Student Enrolled From | Rasmiranjan Mohanty</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Student Enrollment Form</h1>
+        </div>
+        <section id="student_detail_form">
+            <table class="student_detail_table_left">
+                <tr>
+                    <td>
+                        <label for="studentName"><b>Name:</b></label>
+                    </td>
+                    <td>
+                        <form action="">
+                            <input type="text" id="studentname">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="studentemail"><b>Email:</b></label>
+                    </td>
+                    <td>
+                        <form action="">
+                            <input type="text" id="studentemail">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="studentwebsite"><b>Website  :</b></label>
+                    </td>
+                    <td>
+                        <form action="">
+                            <input type="text" id="studentwebsite">
+
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="studentcollege"><b>College Name :</b></label>
+                    </td>
+                    <td>
+                        <form action="">
+                            <input type="text" id="studentcollege">
+
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label for="student_gender"><b>Gender :</b></label><br><br>
+
+                    </td>
+                    <td>
+                        <form action="">
+                            <input type="checkbox" name="gender" id="studentgendermale" value="male">
+                            <label id="male" for="male">Male</label>
+                            <input type="checkbox" name="gender" id="studentgenderfemale" value="female">
+                            <label id="female" for="female">Female</label><br>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br>
+                        <label for="skills"><b>Skills :</b></label><br><br>
+                    </td>
+                    <td>
+                        <form id="skills">
+                            <input type="checkbox" id="skilljava" value="java">
+                            <label for="java">Java</label>
+                            <input type="checkbox" id="skillnet" value=".net">
+                            <label for="java">.Net</label>
+                            <input type="checkbox" id="skillpython" value="python">
+                            <label for="java">Python</label>
+                        </form>
+                    </td>
+                </tr>
+           </table>
+           <div id="buttons">
+               <input type="button" value="Endroll" id="endroll_button">
+               <input type="button" value="Clear" id="clear_button">
+
+           </div>
+        </section>
+        <section id="endrolled_student_details">
+            <div class="student_details">
+                <h2>Endrolled Student</h2>
+                <table id="details_table">
+                    <tr>
+                        <th>Descriprion</th>
+                        <th>Image</th>
+                    </tr>
+                    <tr>
+                        <td id="details_td">
+
+                        </td>
+                        <td id="image_td">
+
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+    </header>
+    <script src="index.js"></script>
+</body>
+
+</html>
